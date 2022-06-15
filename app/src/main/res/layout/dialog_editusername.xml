@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/editTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensanslight"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="Edit nickname"
+        android:textColor="@color/fortext"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editNicknameINP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextView"
+        android:autofillHints="name"
+        android:fontFamily="@font/glacialindifference"
+        android:hint="New nickname"
+        android:inputType="textCapWords"
+        android:maxLength="8"
+        android:minHeight="60dp"
+        android:textColor="#757575"
+        android:textSize="24sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nameEditCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editNicknameINP"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/nameEditConfirm"
+        android:background="#FBC8C8"
+        android:fontFamily="@font/glacialindifference"
+        android:gravity="center"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="@string/cancel"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nameEditConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editNicknameINP"
+        android:layout_alignParentEnd="true"
+        android:background="#B9F4B9"
+        android:fontFamily="@font/glacialindifference"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/confirm"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"/>
+
+</RelativeLayout>

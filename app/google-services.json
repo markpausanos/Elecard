@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "370712199136",
+    "firebase_url": "https://genshintrack-dc021-default-rtdb.firebaseio.com",
+    "project_id": "genshintrack-dc021",
+    "storage_bucket": "genshintrack-dc021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370712199136:android:a9a2402236b6cf1c5e3585",
+        "android_client_info": {
+          "package_name": "com.example.fc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370712199136-l3a0ngu88f98139sapmqk6rg374ab5da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXafw6HoF8pGGG8DmEjZKFOBhLwj9zN6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370712199136-l3a0ngu88f98139sapmqk6rg374ab5da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370712199136:android:493ed693a644f8bb5e3585",
+        "android_client_info": {
+          "package_name": "com.example.genshintrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370712199136-l3a0ngu88f98139sapmqk6rg374ab5da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXafw6HoF8pGGG8DmEjZKFOBhLwj9zN6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370712199136-l3a0ngu88f98139sapmqk6rg374ab5da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

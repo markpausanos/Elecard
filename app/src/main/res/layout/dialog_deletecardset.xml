@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/createTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensanslight"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="Are you sure to delete card set?"
+        android:textColor="#FC0000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createTextView"
+        android:layout_alignStart="@+id/createTextView"
+        android:layout_alignEnd="@+id/createTextView"
+        android:weightSum="2"
+       >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/deleteCardCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/createTextView"
+            android:layout_alignStart="@+id/createTextView"
+            android:background="#FBC8C8"
+            android:fontFamily="@font/glacialindifference"
+            android:gravity="center"
+            android:padding="2dp"
+            android:layout_weight="0.9"
+            android:text="CANCEL"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/deleteCardConfirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/createTextView"
+            android:layout_alignEnd="@+id/createTextView"
+            android:layout_weight="0.9"
+            android:background="#B9F4B9"
+            android:fontFamily="@font/glacialindifference"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="CONFIRM"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

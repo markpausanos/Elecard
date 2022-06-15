@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:weightSum="3"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/easyFlipView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_marginBottom="-5dp"-->
+<!--        android:layout_marginHorizontal="50dp">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Edit"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:background="#CAFFBA"-->
+<!--            android:fontFamily="@font/glacialindifference"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Delete"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:background="#CAFFBA"-->
+<!--            android:fontFamily="@font/glacialindifference"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="End"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textAlignment="center"-->
+<!--            android:background="#CAFFBA"-->
+<!--            android:fontFamily="@font/glacialindifference"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/stopFlashCard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_stop"
+        app:layout_constraintBottom_toTopOf="@+id/easyFlipView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/editFlashCard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="45dp"
+        android:onClick="onClick"
+        android:background="@drawable/button_edit"
+        app:layout_constraintBottom_toBottomOf="@+id/stopFlashCard"
+        app:layout_constraintEnd_toStartOf="@+id/stopFlashCard"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/easyFlipView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/deleteFlashCard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="45dp"
+        android:onClick="onClick"
+        android:background="@drawable/button_delete"
+        app:layout_constraintStart_toEndOf="@+id/stopFlashCard"
+        app:layout_constraintTop_toTopOf="@+id/stopFlashCard" />
+
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:id="@+id/easyFlipView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/design_cardfront"
+        android:backgroundTint="@color/white"
+        app:autoFlipBack="false"
+        app:flipDuration="400"
+        app:flipEnabled="true"
+        app:flipFrom="right"
+        app:flipOnTouch="true"
+        app:flipType="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Back Layout Goes Here -->
+        <include layout="@layout/activity3_study_back" />
+
+        <!-- Front Layout Goes Here -->
+        <include layout="@layout/activity3_study_front" />
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="onClick"
+        android:layout_marginTop="30dp"
+        android:id="@+id/backFlashcard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/button_flashback"
+        app:layout_constraintStart_toStartOf="@+id/easyFlipView"
+        app:layout_constraintTop_toBottomOf="@+id/easyFlipView" />
+
+    <TextView
+        android:id="@+id/countFlashcards"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:fontFamily="@font/opensanslight"
+        android:gravity="center"
+        android:text="10/50"
+        android:textColor="@color/fortext"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/nextFlashcard"
+        app:layout_constraintEnd_toStartOf="@+id/nextFlashcard"
+        app:layout_constraintStart_toEndOf="@+id/backFlashcard"
+        app:layout_constraintTop_toTopOf="@+id/backFlashcard" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextFlashcard"
+        android:onClick="onClick"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/button_flashfront"
+        app:layout_constraintEnd_toEndOf="@+id/easyFlipView"
+        app:layout_constraintTop_toTopOf="@+id/backFlashcard" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

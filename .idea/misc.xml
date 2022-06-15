@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable-v24/button_negative.xml" value="0.1935" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable-v24/button_play.xml" value="0.131" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_add.xml" value="0.1835" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_add_clicked.xml" value="0.1685" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_cancel.xml" value="0.17" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_cancel_clicked.xml" value="0.17" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_cancel_unclicked.xml" value="0.17" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_delete.xml" value="0.1765" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_drop.xml" value="0.1565" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_dropclicked.xml" value="0.1565" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_dropdown.xml" value="0.1565" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_dropunclicked.xml" value="0.173" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_flashback.xml" value="0.151" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_flashfront.xml" value="0.1905" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_play.xml" value="0.1" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_play_clicked.xml" value="0.239" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/button_positive.xml" value="0.239" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/design_cardback.xml" value="0.149" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/design_cardfront.xml" value="0.149" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/design_createcard.xml" value="0.1495" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/design_fieldcreatecard.xml" value="0.1495" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/design_question_background.xml" value="0.1525" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/drawable/design_row_background.xml" value="0.173" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/font/.xml" value="0.2671875" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity0_forgot_pass.xml" value="0.536" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity0_login.xml" value="0.4" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity0_register.xml" value="0.4" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity1_home.xml" value="0.25" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity2_edit.xml" value="0.4" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity3_study_back.xml" value="0.14407866609662248" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity3_study_front.xml" value="0.2" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity3_study_main.xml" value="0.2" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity_activity2_edit_card.xml" value="0.22864583333333333" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity_forgot_pass.xml" value="0.22864583333333333" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/activity_main.xml" value="0.22864583333333333" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/alertdialog_customflashcards.xml" value="0.1876870457460453" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/design_flashcard.xml" value="0.4" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/design_row.xml" value="0.5418006430868167" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/dialog_createcardset.xml" value="0.2" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/dialog_customflashcards.xml" value="0.4" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/dialog_deletecard.xml" value="0.4" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/dialog_deletecardset.xml" value="0.264" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/dialog_editcardset.xml" value="0.4" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/layout/dialog_editusername.xml" value="0.264" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/menu/option_cardset.xml" value="0.22864583333333333" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/menu/option_flashcard.xml" value="0.22864583333333333" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/menu/option_home.xml" value="0.1876870457460453" />
+        <entry key="..\:/PROGRAMMINGPRACTICES/FC/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.149" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

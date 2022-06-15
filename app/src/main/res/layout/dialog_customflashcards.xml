@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/design_createcard"
+    android:backgroundTint="#B1ceff"
+   >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addFlashCancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_cancel" />
+
+    <EditText
+        android:id="@+id/addFlashQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/addFlashCancel"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/design_fieldcreatecard"
+        android:fontFamily="@font/opensanslight"
+        android:gravity="start"
+        android:hint="Insert question here"
+        android:inputType="textMultiLine|textCapSentences"
+        android:padding="25dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/fortext"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addFlashAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/addFlashQuestion"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/design_fieldcreatecard"
+        android:fontFamily="@font/opensanslight"
+        android:gravity="left"
+        android:hint="Insert answer here"
+        android:inputType="textMultiLine|textCapSentences"
+        android:padding="25dp"
+        android:textColor="@color/fortext"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addFlashSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/addFlashAnswer"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/design_fieldcreatecard"
+        android:backgroundTint="#A9F2E6"
+        android:fontFamily="@font/opensanslight"
+        android:text="add"
+        android:textAllCaps="false"
+        android:textColor="@color/fortext"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

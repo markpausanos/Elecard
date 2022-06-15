@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_Main" >
+
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/welcomeUserText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/recyclerViewHome"
+        android:layout_alignTop="@+id/home_options"
+        android:fontFamily="@font/glacialindifference"
+        android:text="Hello, User"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/fortext"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeUserText"
+        android:layout_alignStart="@id/welcomeUserText"
+        android:layout_alignBottom="@id/flashcardText"
+        android:fontFamily="@font/opensanslight"
+        android:textStyle="bold"
+        android:text="Let the learning begin"
+        android:textColor="@color/fortext"
+        android:textSize="17sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/home_options"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/flashcardText"
+        android:layout_alignEnd="@id/recyclerViewHome"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_drop"
+        android:fontFamily="@font/glacialindifference"
+        android:onClick="optionHome" />
+
+    <TextView
+        android:id="@+id/flashcardText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/recyclerViewHome"
+        android:layout_marginBottom="520dp"
+        android:fontFamily="@font/glacialindifference"
+        android:gravity="center"
+        android:text="Flashcard Sets"
+        android:textStyle="bold"
+        android:textColor="@color/fortext"
+        android:textSize="40sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewHome"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_above="@+id/addButtonCardSet"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addButtonCardSet"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#eda1ab"
+        android:fontFamily="@font/glacialindifference"
+        android:gravity="center"
+        android:onClick="addCardDialog"
+        android:text="@string/add_new_card_set"
+        android:textColor="@color/fortext"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/home_progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_gravity="center"
+
+         />
+
+</RelativeLayout>
